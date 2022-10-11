@@ -25,8 +25,11 @@
                 <td><input type="text" name="pekerjaan" required></td>
             </tr>
             <tr>
-                <td></td> 
-                <td><input type="submit" value="Tambah"> <input type="reset" value="Batal"> <?php echo anchor('kampus/index','<input type=button value=Kembali>'); ?></td>
+                <td>Upload Foto</td> 
+                <td><input type="file" name="foto"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="tambah"><input type="reset" value="batal"><?php echo anchor('kampus/index','<input type= button value=kembali>');?></td>
             </tr>
         </table>
     </form>
