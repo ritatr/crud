@@ -2,10 +2,11 @@
 <html>
 <head>
     <title>Tampil Data</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>desain/css/styles.css">
 </head>
 <body>
     <center><hl>Data Mahasiswa</hl></center>
-    <table style="margin:20px auto;" border="1">
+    <table style="margin:20px auto;" border="1" id="tampilantabel">
         <tr>
             <th>No</th>
             <th>NIM</th>
